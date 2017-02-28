@@ -1,0 +1,53 @@
+<div class="modal-body wrapper-lg v-middle" >
+  <div class="row">
+    <div class="col-sm-12">
+      <h3 class="m-t-none m-b font-thin">{{page_title}}</h3>
+      <form role="form" name="bannerForm" class="form-validation" id="form1"  method="post" enctype="multipart/form-data">
+        <div class="row">
+          <div class="form-group col-sm-12">
+            <div class="text-danger wrapper text-center" ng-show="authError">
+              {{authError}}
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="form-group col-sm-12 col-xs-12">
+            <label>课件名称:</label>
+            <input type="text" name="file_name" class="form-control col-sm-12 col-xs-12" placeholder="请输入课件名称"  ng-model="file.file_name"   ng-change="chkchange()" required>
+          </div>
+            <div class="form-group col-sm-12 col-xs-12">
+              <label>所属科目:</label>
+              <select name="object" class="form-control" style="whdth:80%" ng-model="selected" ng-change="chkchange()" required>
+                <option ng-repeat="object in object_list" value="{{object.object_id}}">{{object.object_name}}</option>
+              </select>
+            </div>
+          <div class="form-group col-sm-12 col-xs-12"  ng-mouseover="chkchange()">
+          <input ui-jq="filestyle" name="file" id="fileInput" type="file" data-icon="false" file-model="file.file" data-classButton="btn btn-default" data-classInput="form-control inline v-middle input-s" style="opacity: 0">
+          </div>
+          <i class="text-danger">　*目前只接受word/ppt/pdf/视频<br/>　*视频暂时只支持mp4格式</i>
+        </div>
+        <div class="checkbox m-t-lg">
+          <button type="submit" class="btn m-b-xs w-xs btn-success pull-right text-uc m-t-n-xs" id="submit" ng-disabled='formInvalid' ng-click="fileadd()"><strong>确认提交</strong></button>
+          <button type="button" class="btn m-b-xs w-xs btn-danger pull-right text-uc m-t-n-xs m-r-md" ng-click="cancel()"><strong>取消</strong></button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<script>
+/*  $(function () {
+    $("#submit").on('click', function () {
+      console.log(123);
+      $("#form1").ajaxSubmit({
+        url: "file_add",
+        dataType: 'json',
+        async: true,
+        success: function (response) {
+          toastr.error(response.data.dec.msg);
+        }
+      })
+    });
+  });*/
+
+
+</script>

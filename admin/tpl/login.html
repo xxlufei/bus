@@ -1,0 +1,30 @@
+
+
+<div class="modal-over bg-img">
+    <div class="animated fadeInUp text-center">
+        <div class="container w-xxl w-auto-xs m-t-25" ng-controller="SigninFormController" ng-init="app.settings.container = false;">
+
+
+            <a href class="navbar-brand block m-t">{{app.name}}</a>
+            <div class="m-b-lg">
+                <form name="form" class="form-validation">
+                    <div class="text-danger wrapper text-center" ng-show="authError">
+                        {{authError}}
+                    </div>
+                    <div class="list-group list-group-sm">
+                        <div class="list-group-item" style="opacity: .95">
+                            <input type="text" placeholder="请输入登录名" class="form-control no-border fa-save" ng-model="user.admin_user" required>
+                        </div>
+                        <div class="list-group-item" style="opacity: .95">
+                            <input type="password" placeholder="请输入登录密码" class="form-control no-border" ng-model="user.admin_password" required>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-lg btn-success btn-block" ng-click="login()" ng-disabled='form.$invalid'>登    录</button>
+                    <div class="text-center m-t m-b"><a ui-sref="access.forgotpwd">忘记密码?</a></div>
+                    <div class="line line-dashed"></div>
+                </form>
+            </div>
+            <div class="text-center" ng-include="'tpl/blocks/page_footer.html'"></div>
+        </div>
+    </div>
+</div>

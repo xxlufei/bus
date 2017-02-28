@@ -1,0 +1,127 @@
+<div class="app-content-full" ng-controller="file_modal_ctrl">
+    <div  class="hbox hbox-auto-xs bg-light " ng-init="
+  app.settings.asideFolded = true;
+  app.settings.asideFixed = true;
+  app.settings.asideDock = false;
+  app.settings.container = false;
+  app.hideAside = false
+  ">
+        <div class="col w-md lter b-r">
+            <div class="vbox">
+                <div class="wrapper b-b b-light">
+                    <div class="font-thin h4">课件管理</div>
+                </div>
+                <div class="row-row">
+                    <div class="cell">
+                        <div class="cell-inner">
+                            <div class="tab-content">
+                                <div class="tab-pane" ng-class="{'active': file_tabs[0]}">
+                                    <div class="wrapper-md">
+                                        <div class="row m-b">
+                                            <div class="col-md-12">
+                                                <div>
+                                                    <script type="text/ng-template" id="operation.file.add.html">
+                                                        <div ng-include="'tpl/modals/modal.operation.file.add.html'"></div>
+                                                    </script>
+                                                    <script type="text/ng-template" id="confrim.html">
+                                                        <div ng-include="'tpl/modals/modal.confrim.html'"></div>
+                                                    </script>
+                                                    <button class="btn btn-success btn-block" ng-click="open_add('sm')">增加课件</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="line b-b line-lg"></div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="vbox">
+                <div class="row-row">
+                    <div class="cell">
+                        <div class="cell-inner">
+                            <div class="wrapper-md">
+                                <!-- toaster directive -->
+                                <toaster-container toaster-options="{'position-class': 'toast-top-right', 'close-button':true}"></toaster-container>
+                                <!-- / toaster directive -->
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        结果
+                                    </div>
+                                    <!--<div class="row">-->
+                                    <!--<input type="text">-->
+                                    <!--</div>-->
+                                    <div class="table-responsive">
+                                        <table class="table table-striped table-bordered">
+                                            <thead ng-init="
+                            app.settings.asideFolded = true;
+                            app.settings.asideFixed = true;
+                            app.settings.asideDock = false;
+                            app.settings.container = false;
+                            app.hideAside = false
+                            ">
+                                            <th>课件id</th>
+                                            <th>课件名称</th>
+                                            <th>课件类型</th>
+                                            <th>所属科目</th>
+                                            <th style="width: 80px">操作</th>
+                                            </thead>
+                                            <tbody>
+                                            <tr ng-repeat="item in file_list">
+                                                <td>{{ item.file_id }}</td>
+                                                <td>{{ item.file_name }}</td>
+                                                <td class="text-warning" ng-show="item.file_type < 1">视频</td>
+                                                <td class="text-info" ng-show="item.file_type == 1">PDF</td>
+                                                <td class="text-danger" ng-show="item.file_type == 2">WORD</td>
+                                                <td class="text-success" ng-show="item.file_type == 3">PPT</td>
+                                                <td>{{ item.object_name }}</td>
+                                                <td>
+                                                    <a href ng-click="file_remove(item.file_id)" class="text-danger"><i class="fa fa-trash-o fa-sm"></i></a>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                        <div >
+                                            <div class="row" style="margin: 10px 0;">
+                                                <div class="col-md-4 col-sm-4">
+                                                    <div class="dataTables_info"> 页码: {{bigCurrentPage}} / {{numPages}}  共 {{bigTotalItems}} 条数据</div>
+                                                </div>
+                                                <div class="col-md-8 col-sm-8">
+                                                    <div style="float: right;margin: 0;">
+                                                        <pagination total-items="bigTotalItems"
+                                                                    ng-model="bigCurrentPage"
+                                                                    max-size="maxSize"
+                                                                    class="pagination-md m-t-none m-b"
+                                                                    boundary-links="true"
+                                                                    rotate="false"
+                                                                    num-pages="numPages"
+                                                                    items-per-page="pageSize"
+                                                                    previous-text="上一页"
+                                                                    next-text="下一页"
+                                                                    first-text="首页"
+                                                                    last-text="尾页"
+                                                                    ng-change="pageChanged()"
+                                                        ></pagination>
+                                                    </div>
+                                                </div>
+
+                                                <!--<pagination total-items="bigTotalItems" ng-model="bigCurrentPage" max-size="maxSize" class="pagination-sm m-t-sm m-b" boundary-links="true"></pagination>-->
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

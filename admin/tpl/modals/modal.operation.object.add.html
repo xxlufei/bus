@@ -1,0 +1,26 @@
+<div class="modal-body wrapper-lg v-middle">
+  <div class="row">
+    <div class="col-sm-12">
+      <h3 class="m-t-none m-b font-thin">{{page_title}}</h3>
+      <form role="form" name="bannerForm" class="form-validation">
+        <div class="row">
+          <div class="form-group col-sm-12">
+            <div class="text-danger wrapper text-center" ng-show="authError">
+              {{authError}}
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="form-group col-sm-12 col-xs-12">
+            <label>学科名称:</label>
+            <input type="text" name="title" class="form-control col-sm-12 col-xs-12" placeholder="请输入学科名称" ng-change="chkchange()" ng-model="object.object_name" required>
+          </div>
+        </div>
+        <div class="checkbox m-t-lg">
+          <button type="submit" class="btn m-b-xs w-xs btn-success pull-right text-uc m-t-n-xs" ng-click="objectadd()" ng-disabled='formInvalid' ><strong>确认提交</strong></button>
+          <button type="button" class="btn m-b-xs w-xs btn-danger pull-right text-uc m-t-n-xs m-r-md" ng-click="cancel()"><strong>取消</strong></button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
