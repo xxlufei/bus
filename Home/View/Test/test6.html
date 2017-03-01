@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>模板中格式化时间戳</title>
+</head>
+<body>
+    现在的时间是：{$time|date='Y-m-d H:i:s',###}<br/>
+    原字符串：{$str}<br/>
+    转换后取前5字符的字符串：{$str|strtoupper|substr=###,0,5}<br/>
+    available：{$available}<br/>
+    available为空或不存在则给默认值：{$available|default="真懒，啥都不写"}<br/>
+</body>
+</html>

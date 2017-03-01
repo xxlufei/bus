@@ -1,0 +1,40 @@
+[ 2017-02-17T18:52:52+08:00 ] 127.0.0.1 /index.php/Admin/Knowledge/showList
+ERR: 1146:Table 'db_oa.tp_konwledge' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_konwledge`
+
+[ 2017-02-17T18:53:22+08:00 ] 127.0.0.1 /index.php/Admin/Knowledge/showList
+ERR: 1146:Table 'db_oa.tp_konwledge' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_konwledge`
+
+[ 2017-02-17T18:53:23+08:00 ] 127.0.0.1 /index.php/Admin/Knowledge/showList
+ERR: 1146:Table 'db_oa.tp_konwledge' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_konwledge`
+
+[ 2017-02-17T18:53:25+08:00 ] 127.0.0.1 /index.php/Admin/Knowledge/showList
+ERR: 1146:Table 'db_oa.tp_konwledge' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_konwledge`
+
+[ 2017-02-17T18:53:53+08:00 ] 127.0.0.1 /index.php/Admin/Knowledge/showList
+ERR: 1146:Table 'db_oa.tp_konwledge' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_konwledge`
+
+[ 2017-02-17T18:53:57+08:00 ] 127.0.0.1 /index.php/Admin/Knowledge/showList
+ERR: 1146:Table 'db_oa.tp_konwledge' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_konwledge`
+
+[ 2017-02-17T18:54:38+08:00 ] 127.0.0.1 /index.php/Admin/Knowledge/showList.html
+ERR: 1146:Table 'db_oa.tp_konwledge' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_konwledge`
+
+[ 2017-02-17T20:00:22+08:00 ] 127.0.0.1 /index.php/Admin/Knowledge/edit/id/2
+ERR: 模板不存在:C:/wmap/Apache24/htdocs/ThinkPHP/Admin/View/Knowledge/edit.html
+
+[ 2017-02-17T20:10:26+08:00 ] 127.0.0.1 /index.php/Admin/Knowledge/eidt.html
+ERR: 非法操作:eidt
+
+[ 2017-02-17T20:58:47+08:00 ] 127.0.0.1 /index.php/Admin/Public/captcha
+ERR: 模板不存在:C:/wmap/Apache24/htdocs/ThinkPHP/Admin/View/Public/captcha.html
+
+[ 2017-02-17T21:48:29+08:00 ] 127.0.0.1 /index.php/Admin/Email/add
+ERR: 非法操作:add
+

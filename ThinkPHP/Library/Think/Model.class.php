@@ -810,8 +810,17 @@ class Model {
             foreach ($this->_map as $key=>$val){
                 if($type==1) { // 读取
                     if(isset($data[$val])) {
+                        // 一维数组
                         $data[$key] =   $data[$val];
                         unset($data[$val]);
+                    }else{
+                        // 兼容二维数组
+                        foreach ($data as $k => $v) {
+                            if(isset($data[$k][$val])) {
+                                $data[$k][$key] =   $data[$k][$val];
+                                unset($data[$k][$val]);
+                            }
+                        }
                     }
                 }else{
                     if(isset($data[$key])) {

@@ -1,0 +1,9 @@
+[ 2017-02-18T11:01:10+08:00 ] 127.0.0.1 /index.php/AdEin/Index/index1
+ERR: 无法加载控制器:AdEin
+
+[ 2017-02-18T11:01:27+08:00 ] 127.0.0.1 /index.php/AdEin/Index/index
+ERR: 无法加载控制器:AdEin
+
+[ 2017-02-18T11:02:44+08:00 ] 127.0.0.1 /index.php/AdEin/Index/inded
+ERR: 无法加载控制器:AdEin
+

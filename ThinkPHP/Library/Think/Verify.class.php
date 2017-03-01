@@ -118,7 +118,7 @@ class Verify {
         // 建立一幅 $this->imageW x $this->imageH 的图像
         $this->_image = imagecreate($this->imageW, $this->imageH); 
         // 设置背景      
-        imagecolorallocate($this->_image, $this->bg[0], $this->bg[1], $this->bg[2]); 
+        imagecolorallocate($this->_image, $this->bg[0], $this->bg[1], $this->bg[2]);
 
         // 验证码字体随机颜色
         $this->_color = imagecolorallocate($this->_image, mt_rand(1,150), mt_rand(1,150), mt_rand(1,150));

@@ -1,0 +1,404 @@
+[ 2017-03-01T14:14:29+08:00 ] 127.0.0.1 /index.php/Admin/Email/getMsgCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001168s ]
+NOTIC: [8] Undefined index: auth E:\project\bus_model\Admin\Controller\CommonController.class.php 第 44 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+
+[ 2017-03-01T14:14:31+08:00 ] 127.0.0.1 /index.php/Admin/Public/captcha
+ERR: 模板不存在:E:/project/bus_model/Admin/View/Public/captcha.html
+
+[ 2017-03-01T14:14:34+08:00 ] 127.0.0.1 /index.php/Admin/Public/captcha
+ERR: 模板不存在:E:/project/bus_model/Admin/View/Public/captcha.html
+
+[ 2017-03-01T14:14:40+08:00 ] 127.0.0.1 /index.php/Admin/Email/getMsgCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002016s ]
+NOTIC: [8] Undefined index: auth E:\project\bus_model\Admin\Controller\CommonController.class.php 第 44 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+
+[ 2017-03-01T14:14:45+08:00 ] 127.0.0.1 /index.php/Admin/Email/getMsgCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001439s ]
+NOTIC: [8] Undefined index: auth E:\project\bus_model\Admin\Controller\CommonController.class.php 第 44 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+
+[ 2017-03-01T14:14:50+08:00 ] 127.0.0.1 /index.php/Admin/Email/getMsgCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+NOTIC: [8] Undefined index: auth E:\project\bus_model\Admin\Controller\CommonController.class.php 第 44 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+
+[ 2017-03-01T14:14:55+08:00 ] 127.0.0.1 /index.php/Admin/Email/getMsgCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+NOTIC: [8] Undefined index: auth E:\project\bus_model\Admin\Controller\CommonController.class.php 第 44 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+
+[ 2017-03-01T14:15:00+08:00 ] 127.0.0.1 /index.php/Admin/Email/getMsgCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000929s ]
+NOTIC: [8] Undefined index: auth E:\project\bus_model\Admin\Controller\CommonController.class.php 第 44 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+
+[ 2017-03-01T14:15:05+08:00 ] 127.0.0.1 /index.php/Admin/Email/getMsgCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001235s ]
+NOTIC: [8] Undefined index: auth E:\project\bus_model\Admin\Controller\CommonController.class.php 第 44 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+
+[ 2017-03-01T14:15:10+08:00 ] 127.0.0.1 /index.php/Admin/Email/getMsgCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+NOTIC: [8] Undefined index: auth E:\project\bus_model\Admin\Controller\CommonController.class.php 第 44 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+
+[ 2017-03-01T14:15:15+08:00 ] 127.0.0.1 /index.php/Admin/Email/getMsgCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+NOTIC: [8] Undefined index: auth E:\project\bus_model\Admin\Controller\CommonController.class.php 第 44 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+
+[ 2017-03-01T14:15:20+08:00 ] 127.0.0.1 /index.php/Admin/Email/getMsgCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+NOTIC: [8] Undefined index: auth E:\project\bus_model\Admin\Controller\CommonController.class.php 第 44 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+
+[ 2017-03-01T14:15:25+08:00 ] 127.0.0.1 /index.php/Admin/Email/getMsgCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+NOTIC: [8] Undefined index: auth E:\project\bus_model\Admin\Controller\CommonController.class.php 第 44 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+
+[ 2017-03-01T14:15:30+08:00 ] 127.0.0.1 /index.php/Admin/Email/getMsgCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+NOTIC: [8] Undefined index: auth E:\project\bus_model\Admin\Controller\CommonController.class.php 第 44 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+
+[ 2017-03-01T14:15:39+08:00 ] 127.0.0.1 /index.php/Admin/Email/getMsgCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001405s ]
+NOTIC: [8] Undefined index: auth E:\project\bus_model\Admin\Controller\CommonController.class.php 第 44 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+
+[ 2017-03-01T14:15:40+08:00 ] 127.0.0.1 /index.php/Admin/Email/getMsgCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+NOTIC: [8] Undefined index: auth E:\project\bus_model\Admin\Controller\CommonController.class.php 第 44 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+
+[ 2017-03-01T14:15:45+08:00 ] 127.0.0.1 /index.php/Admin/Email/getMsgCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+NOTIC: [8] Undefined index: auth E:\project\bus_model\Admin\Controller\CommonController.class.php 第 44 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+
+[ 2017-03-01T14:15:50+08:00 ] 127.0.0.1 /index.php/Admin/Email/getMsgCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+NOTIC: [8] Undefined index: auth E:\project\bus_model\Admin\Controller\CommonController.class.php 第 44 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+
+[ 2017-03-01T14:15:55+08:00 ] 127.0.0.1 /index.php/Admin/Email/getMsgCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001201s ]
+NOTIC: [8] Undefined index: auth E:\project\bus_model\Admin\Controller\CommonController.class.php 第 44 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+
+[ 2017-03-01T14:16:00+08:00 ] 127.0.0.1 /index.php/Admin/Email/getMsgCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001039s ]
+NOTIC: [8] Undefined index: auth E:\project\bus_model\Admin\Controller\CommonController.class.php 第 44 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+
+[ 2017-03-01T14:16:05+08:00 ] 127.0.0.1 /index.php/Admin/Email/getMsgCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+NOTIC: [8] Undefined index: auth E:\project\bus_model\Admin\Controller\CommonController.class.php 第 44 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+
+[ 2017-03-01T14:16:10+08:00 ] 127.0.0.1 /index.php/Admin/Email/getMsgCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000935s ]
+NOTIC: [8] Undefined index: auth E:\project\bus_model\Admin\Controller\CommonController.class.php 第 44 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+
+[ 2017-03-01T14:16:15+08:00 ] 127.0.0.1 /index.php/Admin/Email/getMsgCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+NOTIC: [8] Undefined index: auth E:\project\bus_model\Admin\Controller\CommonController.class.php 第 44 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+
+[ 2017-03-01T14:16:20+08:00 ] 127.0.0.1 /index.php/Admin/Email/getMsgCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+NOTIC: [8] Undefined index: auth E:\project\bus_model\Admin\Controller\CommonController.class.php 第 44 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+
+[ 2017-03-01T14:16:25+08:00 ] 127.0.0.1 /index.php/Admin/Email/getMsgCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+NOTIC: [8] Undefined index: auth E:\project\bus_model\Admin\Controller\CommonController.class.php 第 44 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+
+[ 2017-03-01T14:16:30+08:00 ] 127.0.0.1 /index.php/Admin/Email/getMsgCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+NOTIC: [8] Undefined index: auth E:\project\bus_model\Admin\Controller\CommonController.class.php 第 44 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+
+[ 2017-03-01T14:16:35+08:00 ] 127.0.0.1 /index.php/Admin/Public/captcha
+ERR: 模板不存在:E:/project/bus_model/Admin/View/Public/captcha.html
+
+[ 2017-03-01T14:16:37+08:00 ] 127.0.0.1 /index.php/Admin/Public/captcha
+ERR: 模板不存在:E:/project/bus_model/Admin/View/Public/captcha.html
+
+[ 2017-03-01T14:16:43+08:00 ] 127.0.0.1 /index.php/Admin/Email/getMsgCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001217s ]
+NOTIC: [8] Undefined index: auth E:\project\bus_model\Admin\Controller\CommonController.class.php 第 44 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+
+[ 2017-03-01T14:16:48+08:00 ] 127.0.0.1 /index.php/Admin/Email/getMsgCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+NOTIC: [8] Undefined index: auth E:\project\bus_model\Admin\Controller\CommonController.class.php 第 44 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+
+[ 2017-03-01T14:16:53+08:00 ] 127.0.0.1 /index.php/Admin/Email/getMsgCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001556s ]
+NOTIC: [8] Undefined index: auth E:\project\bus_model\Admin\Controller\CommonController.class.php 第 44 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+
+[ 2017-03-01T14:16:58+08:00 ] 127.0.0.1 /index.php/Admin/Email/getMsgCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+NOTIC: [8] Undefined index: auth E:\project\bus_model\Admin\Controller\CommonController.class.php 第 44 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+
+[ 2017-03-01T14:17:03+08:00 ] 127.0.0.1 /index.php/Admin/Email/getMsgCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+NOTIC: [8] Undefined index: auth E:\project\bus_model\Admin\Controller\CommonController.class.php 第 44 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+
+[ 2017-03-01T14:17:08+08:00 ] 127.0.0.1 /index.php/Admin/Email/getMsgCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000988s ]
+NOTIC: [8] Undefined index: auth E:\project\bus_model\Admin\Controller\CommonController.class.php 第 44 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+
+[ 2017-03-01T14:17:13+08:00 ] 127.0.0.1 /index.php/Admin/Email/getMsgCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+NOTIC: [8] Undefined index: auth E:\project\bus_model\Admin\Controller\CommonController.class.php 第 44 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+
+[ 2017-03-01T14:17:18+08:00 ] 127.0.0.1 /index.php/Admin/Email/getMsgCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+NOTIC: [8] Undefined index: auth E:\project\bus_model\Admin\Controller\CommonController.class.php 第 44 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+
+[ 2017-03-01T14:17:23+08:00 ] 127.0.0.1 /index.php/Admin/Email/getMsgCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+NOTIC: [8] Undefined index: auth E:\project\bus_model\Admin\Controller\CommonController.class.php 第 44 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+
+[ 2017-03-01T14:17:28+08:00 ] 127.0.0.1 /index.php/Admin/Email/getMsgCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+NOTIC: [8] Undefined index: auth E:\project\bus_model\Admin\Controller\CommonController.class.php 第 44 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+
+[ 2017-03-01T14:17:33+08:00 ] 127.0.0.1 /index.php/Admin/Email/getMsgCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+NOTIC: [8] Undefined index: auth E:\project\bus_model\Admin\Controller\CommonController.class.php 第 44 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+
+[ 2017-03-01T14:17:38+08:00 ] 127.0.0.1 /index.php/Admin/Email/getMsgCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000955s ]
+NOTIC: [8] Undefined index: auth E:\project\bus_model\Admin\Controller\CommonController.class.php 第 44 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+
+[ 2017-03-01T14:17:43+08:00 ] 127.0.0.1 /index.php/Admin/Email/getMsgCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001481s ]
+NOTIC: [8] Undefined index: auth E:\project\bus_model\Admin\Controller\CommonController.class.php 第 44 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+
+[ 2017-03-01T14:17:48+08:00 ] 127.0.0.1 /index.php/Admin/Email/getMsgCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+NOTIC: [8] Undefined index: auth E:\project\bus_model\Admin\Controller\CommonController.class.php 第 44 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+
+[ 2017-03-01T14:17:53+08:00 ] 127.0.0.1 /index.php/Admin/Email/getMsgCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+NOTIC: [8] Undefined index: auth E:\project\bus_model\Admin\Controller\CommonController.class.php 第 44 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+
+[ 2017-03-01T14:17:58+08:00 ] 127.0.0.1 /index.php/Admin/Email/getMsgCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+NOTIC: [8] Undefined index: auth E:\project\bus_model\Admin\Controller\CommonController.class.php 第 44 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+
+[ 2017-03-01T14:18:03+08:00 ] 127.0.0.1 /index.php/Admin/Email/getMsgCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001641s ]
+NOTIC: [8] Undefined index: auth E:\project\bus_model\Admin\Controller\CommonController.class.php 第 44 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+
+[ 2017-03-01T14:18:08+08:00 ] 127.0.0.1 /index.php/Admin/Email/getMsgCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+NOTIC: [8] Undefined index: auth E:\project\bus_model\Admin\Controller\CommonController.class.php 第 44 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+
+[ 2017-03-01T14:18:13+08:00 ] 127.0.0.1 /index.php/Admin/Email/getMsgCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+NOTIC: [8] Undefined index: auth E:\project\bus_model\Admin\Controller\CommonController.class.php 第 44 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+
+[ 2017-03-01T14:18:18+08:00 ] 127.0.0.1 /index.php/Admin/Email/getMsgCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001356s ]
+NOTIC: [8] Undefined index: auth E:\project\bus_model\Admin\Controller\CommonController.class.php 第 44 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+
+[ 2017-03-01T14:18:23+08:00 ] 127.0.0.1 /index.php/Admin/Email/getMsgCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+NOTIC: [8] Undefined index: auth E:\project\bus_model\Admin\Controller\CommonController.class.php 第 44 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+
+[ 2017-03-01T14:18:28+08:00 ] 127.0.0.1 /index.php/Admin/Email/getMsgCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+NOTIC: [8] Undefined index: auth E:\project\bus_model\Admin\Controller\CommonController.class.php 第 44 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+
+[ 2017-03-01T14:18:33+08:00 ] 127.0.0.1 /index.php/Admin/Email/getMsgCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+NOTIC: [8] Undefined index: auth E:\project\bus_model\Admin\Controller\CommonController.class.php 第 44 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+
+[ 2017-03-01T14:18:38+08:00 ] 127.0.0.1 /index.php/Admin/Email/getMsgCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+NOTIC: [8] Undefined index: auth E:\project\bus_model\Admin\Controller\CommonController.class.php 第 44 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+
+[ 2017-03-01T14:18:43+08:00 ] 127.0.0.1 /index.php/Admin/Email/getMsgCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001050s ]
+NOTIC: [8] Undefined index: auth E:\project\bus_model\Admin\Controller\CommonController.class.php 第 44 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\project\bus_model\Admin\Controller\CommonController.class.php 第 47 行.
+

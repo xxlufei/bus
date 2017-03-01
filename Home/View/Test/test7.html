@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>volist\foreach使用</title>
+</head>
+<body>
+    <volist name="arr" id="vol">
+        {$vol.0}--{$vol.1}--{$vol.2}--{$vol.3}<br />
+    </volist>
+    <foreach name="arr" item="vol">
+        {$vol.0}--{$vol.1}--{$vol.2}--{$vol.3}<br />
+    </foreach>
+</body>
+</html>

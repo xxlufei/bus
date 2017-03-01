@@ -1,0 +1,114 @@
+[ 2017-02-15T09:24:58+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2017-02-15T09:25:37+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2017-02-15T09:29:23+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2017-02-15T09:40:19+08:00 ] 127.0.0.1 /index.php/Admin/Index/captcha
+ERR: 非法操作:captcha
+
+[ 2017-02-15T13:00:14+08:00 ] 127.0.0.1 /index.php/Admin/Index/captcha
+ERR: 非法操作:captcha
+
+[ 2017-02-15T13:00:21+08:00 ] 127.0.0.1 /index.php/Admin/Index/captcha
+ERR: 非法操作:captcha
+
+[ 2017-02-15T13:00:23+08:00 ] 127.0.0.1 /index.php/Admin/Index/captcha/t/0.6286160574115591
+ERR: 非法操作:captcha
+
+[ 2017-02-15T13:00:23+08:00 ] 127.0.0.1 /index.php/Admin/Index/captcha/t/0.7753100385905036
+ERR: 非法操作:captcha
+
+[ 2017-02-15T13:00:24+08:00 ] 127.0.0.1 /index.php/Admin/Index/captcha/t/0.07597088279123887
+ERR: 非法操作:captcha
+
+[ 2017-02-15T13:00:25+08:00 ] 127.0.0.1 /index.php/Admin/Index/captcha/t/0.35153594196923565
+ERR: 非法操作:captcha
+
+[ 2017-02-15T13:00:26+08:00 ] 127.0.0.1 /index.php/Admin/Index/captcha/t/0.5645754910239904
+ERR: 非法操作:captcha
+
+[ 2017-02-15T13:03:11+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2017-02-15T13:41:44+08:00 ] 127.0.0.1 /index.php/Admin/Index/info-reg.html
+ERR: 非法操作:info-reg
+
+[ 2017-02-15T13:41:46+08:00 ] 127.0.0.1 /index.php/Admin/Index/info-mgt.html
+ERR: 非法操作:info-mgt
+
+[ 2017-02-15T13:41:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/info-det.html
+ERR: 非法操作:info-det
+
+[ 2017-02-15T13:43:01+08:00 ] 127.0.0.1 /index.php/Admin/Index/info-reg.html
+ERR: 非法操作:info-reg
+
+[ 2017-02-15T13:43:05+08:00 ] 127.0.0.1 /index.php/Admin/User/showList
+ERR: 非法操作:showList
+
+[ 2017-02-15T13:43:24+08:00 ] 127.0.0.1 /index.php/Admin/User/showList
+ERR: 非法操作:showList
+
+[ 2017-02-15T14:05:15+08:00 ] 127.0.0.1 /index.php/Admin/User/showList.html
+ERR: 非法操作:showList
+
+[ 2017-02-15T15:40:45+08:00 ] 127.0.0.1 /index.php/Admin/Index/edit
+ERR: 非法操作:edit
+
+[ 2017-02-15T15:40:57+08:00 ] 127.0.0.1 /index.php/Admin/Uset/edit
+ERR: 无法加载控制器:Uset
+
+[ 2017-02-15T15:41:54+08:00 ] 127.0.0.1 /index.php/Admin/Uset/edit
+ERR: 无法加载控制器:Uset
+
+[ 2017-02-15T16:49:20+08:00 ] 127.0.0.1 /index.php/Admin/User/__CONTROLLER/add
+ERR: 非法操作:__CONTROLLER
+
+[ 2017-02-15T16:49:37+08:00 ] 127.0.0.1 /index.php/Admin/User/__CONTROLLER/add
+ERR: 非法操作:__CONTROLLER
+
+[ 2017-02-15T21:43:22+08:00 ] 127.0.0.1 /index.php/Admin/User/charts
+ERR: 模板不存在:C:/wmap/Apache24/htdocs/ThinkPHP/Admin/View/User/charts.html
+
+[ 2017-02-15T21:50:52+08:00 ] 127.0.0.1 /index.php/Admin/Public/captcha
+ERR: 模板不存在:C:/wmap/Apache24/htdocs/ThinkPHP/Admin/View/Public/captcha.html
+
+[ 2017-02-15T21:51:04+08:00 ] 127.0.0.1 /index.php/Admin/Public/captcha/t/0.9892486512378376
+ERR: 模板不存在:C:/wmap/Apache24/htdocs/ThinkPHP/Admin/View/Public/captcha.html
+
+[ 2017-02-15T21:51:05+08:00 ] 127.0.0.1 /index.php/Admin/Public/captcha/t/0.29162981697061574
+ERR: 模板不存在:C:/wmap/Apache24/htdocs/ThinkPHP/Admin/View/Public/captcha.html
+
+[ 2017-02-15T21:51:05+08:00 ] 127.0.0.1 /index.php/Admin/Public/captcha/t/0.551399859132544
+ERR: 模板不存在:C:/wmap/Apache24/htdocs/ThinkPHP/Admin/View/Public/captcha.html
+
+[ 2017-02-15T21:51:06+08:00 ] 127.0.0.1 /index.php/Admin/Public/captcha/t/0.48311885289258916
+ERR: 模板不存在:C:/wmap/Apache24/htdocs/ThinkPHP/Admin/View/Public/captcha.html
+
+[ 2017-02-15T21:51:21+08:00 ] 127.0.0.1 /index.php/Admin/User/__Public__/Admin/js/jquery.js
+ERR: 非法操作:__Public__
+
+[ 2017-02-15T21:51:38+08:00 ] 127.0.0.1 /index.php/Admin/User/__Public__/Admin/js/jquery.js
+ERR: 非法操作:__Public__
+
+[ 2017-02-15T21:53:01+08:00 ] 127.0.0.1 /index.php/Admin/User/__Public__/Admin/js/jquery.js
+ERR: 非法操作:__Public__
+
+[ 2017-02-15T21:53:06+08:00 ] 127.0.0.1 /index.php/Admin/User/__Public__/Admin/js/jquery.js
+ERR: 非法操作:__Public__
+
+[ 2017-02-15T21:53:13+08:00 ] 127.0.0.1 /index.php/Admin/User/__Public__/Admin/js/jquery.js
+ERR: 非法操作:__Public__
+
+[ 2017-02-15T22:15:11+08:00 ] 127.0.0.1 /index.php/Admin/Doc/showList
+ERR: 无法加载控制器:Doc
+
+[ 2017-02-15T22:15:12+08:00 ] 127.0.0.1 /index.php/Admin/Doc/add
+ERR: 无法加载控制器:Doc
+
+[ 2017-02-15T22:15:13+08:00 ] 127.0.0.1 /index.php/Admin/Doc/add
+ERR: 无法加载控制器:Doc
+
