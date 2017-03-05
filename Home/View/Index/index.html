@@ -1,10 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>CUP</title>
-</head>
-<body>
-    搞笑play：{$date}
-</body>
-</html>
+<include file='header'/>
+<div class="container" id="cont1">
+
+</div>
+<script>
+    console.log($('#header').height());
+    console.log(window.screen.height )
+    var h = window.screen.height-$('#header').height()
+    $('#cont1').html('<iframe src="{:U('tabs_panels')}" scrolling="yes" id="iframe" name="iframe" width="100%" height="'+h+'" frameborder="0"></iframe>');
+</script>

@@ -24,29 +24,13 @@ class CommonController extends Controller
     # TP框架中的构造方法
     public function _initialize()
     {
-        $uid = session('uid');
+        $uid = session('uname');
         # empty不接收函数的返回值empty(session('id'))这种形式会报错
         if (empty($uid)) {
             $url = U('Public/login');
             /*header("Location:$url");exit;*/
             $script = "<script>window.top.location.href='$url';</script>";
             echo $script;
-        }
-
-        # RBAC权限判断
-        $cname = strtolower(CONTROLLER_NAME);// 当前Controller名
-        $aname = strtolower(ACTION_NAME); // 当前方法名
-        # 获取权限的数组
-        $auths = C('RBAC_AUTHS'); // 配置中权限数组，用于对比cname .'/' . aname 是否在其中
-        # 获取用户组的id
-        $roleid = session('role_id');
-        # 获取当前用户的权限
-        $auth = $auths['auth' . $roleid];
-        # 判断权限
-        if ($roleid != 1) {
-            if (!in_array($cname . '/*', $auth) && !in_array($cname . '/' . $aname, $auth)) {
-                $this->error('没有权限', U('Index/home'), 3);
-            }
         }
     }
 }

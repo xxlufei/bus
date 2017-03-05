@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+
+
+<!-- Mirrored from www.zi-han.net/theme/hplus/tabs_panels.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 20 Jan 2016 14:19:53 GMT -->
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>H+ 后台主题UI框架 - 选项卡 &amp; 面板</title>
+    <meta name="keywords" content="H+后台主题,后台bootstrap框架,会员中心主题,后台HTML,响应式后台">
+    <meta name="description" content="H+是一个完全响应式，基于Bootstrap3最新版本开发的扁平化主题，她采用了主流的左右两栏式布局，使用了Html5+CSS3等现代技术">
+
+    <link rel="shortcut icon" href="favicon.ico"> <link href="__PUBLIC__/Hplus/css/bootstrap.min14ed.css?v=3.3.6" rel="stylesheet">
+    <link href="__PUBLIC__/Hplus/css/font-awesome.min93e3.css?v=4.4.0" rel="stylesheet">
+    <link href="__PUBLIC__/Hplus/css/animate.min.css" rel="stylesheet">
+    <link href="__PUBLIC__/Hplus/css/style.min862f.css?v=4.1.0" rel="stylesheet">
+
+</head>
+
+<body class="gray-bg">
+    <div class="wrapper wrapper-content animated fadeIn">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <div class="col-sm-6">
+                            <div class="row">
+                                <div class="col-sm-2">
+                                    <label class="">选择省份</label>
+                                </div>
+                                <div class="col-sm-3" style="margin-top: -8px">
+                                    <select id="province" class="form-control m-b" name="account" style="display: inline;">
+                                        <volist name="province" id="prov">
+                                            <option value="{$prov.province_id}" <if condition="$prov.province_id == $current_prov_id">selected</if>>{$prov.province_name}</option>　
+                                        </volist>
+                                    </select>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                            <a class="close-link">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content" id="city">
+                        <volist name="citys" id="city">
+                            <if condition="$city.city_id == $current_city_id">
+                                <a href="javascript:;" class="text-danger"><b><i>{$city.city_name}</i></b></a>　　
+                                <else/>
+                                <a href="javascript:;" onclick="change_city({$city.city_id})">{$city.city_name}</a>　　
+                            </if>
+                        </volist>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row m-b-lg">
+            <div class="col-sm-12">
+                <div class="tabs-container">
+
+                    <div class="tabs-left">
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a data-toggle="tab" href="#tab-8"> 线路查询</a>
+                            </li>
+                            <li class=""><a data-toggle="tab" href="#tab-9"> 站点查询</a>
+                            </li>
+                            <li class=""><a data-toggle="tab" href="#tab-10"> 站站查询</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content ">
+                            <div id="tab-8" class="tab-pane active">
+                                <div class="panel-body">
+                                        <div class="form-group">
+                                            <div class="col-sm-10">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <input type="text" id="line_name" placeholder="请输入线路名" class="form-control">
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <button class="btn btn-primary" id="line">搜索</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                            <div id="tab-9" class="tab-pane">
+                                <div class="panel-body">
+                                        <div class="form-group">
+                                            <div class="col-sm-10">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <input type="text" id="station_name" placeholder="请输入站点名" class="form-control">
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <button class="btn btn-primary" type="submit" id="station">搜索</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                            <div id="tab-10" class="tab-pane">
+                                <div class="panel-body">
+                                        <div class="form-group">
+                                            <div class="col-sm-10">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <input type="text" id="station_name_A" placeholder="请输入第一个站点名" class="form-control">
+                                                        <br/>
+                                                        <input type="text" id="station_name_B" placeholder="请输入第二个站点名" class="form-control">
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <button class="btn btn-primary" id="stationA_to_stationB" type="submit">搜索</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <h5>查询结果</h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                            <a class="close-link">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content">
+                        <div class="panel-body">
+                            <div class="panel-group" id="line_result">
+                                <!--<div class="panel panel-default" >
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion" href="tabs_panels.html#collapseThree">标题 #3</a>
+                                            </h4>
+                                    </div>
+                                    <div id="collapseThree" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            Bootstrap相关优质项目推荐 这些项目或者是对Bootstrap进行了有益的补充，或者是基于Bootstrap开发的
+                                        </div>
+                                    </div>
+                                </div>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="__PUBLIC__/Hplus/js/jquery.min.js?v=2.1.4"></script>
+    <script src="__PUBLIC__/Hplus/js/bootstrap.min.js?v=3.3.6"></script>
+    <script src="__PUBLIC__/Hplus/js/content.min.js?v=1.0.0"></script>
+    <script src="__PUBLIC__/Home/js/jquery.form.js"></script>
+    <script type="text/javascript" src="http://tajs.qq.com/stats?sId=9051096" charset="UTF-8"></script>
+</body>
+
+<script>
+    var current_city_id = {$current_city_id};
+    var city_obj = eval({$json_citys});
+    $('#province').on('change', function () {
+        $.get("{:U('city')}",{current_prov_id:$('#province').val()}, function(data){
+            var list = eval(data);//解析json
+            if (list.length == 0) {
+                alert('当前省份暂无城市数据,请联系管理员添加');
+                return;
+            }
+            var str = '';
+            city_obj = list;
+            for(var i=0;i<list.length;i++){
+                if (i == 0) {
+                    current_city_id = list[i]['city_id'];
+                    str += '<a href="javascript:;" class="text-danger"><i><b>'+list[i]['city_name']+'</b></i></a>　　';
+                } else {
+                    str += '<a href="javascript:;" onclick="change_city('+list[i]['city_id']+')">'+list[i]['city_name']+'</a>　　';
+                }
+            }
+            $('#city').html(str);
+        });
+    })
+    function change_city(city_id){
+        var list = city_obj;
+        current_city_id = city_id;
+        var str = '';
+        for(var i=0;i<list.length;i++){
+            if (current_city_id == list[i]['city_id']) {
+                str += '<a href="javascript:;" class="text-danger"><i>'+list[i]['city_name']+'</i></a>　　';
+            } else {
+                str += '<a href="javascript:;" onclick="change_city('+list[i]['city_id']+')">'+list[i]['city_name']+'</a>　　';
+            }
+        }
+        $('#city').html(str);
+        console.log(current_city_id);
+    }
+
+    //线路查询
+    $('#line').on('click', function () {
+        $.get("{:U('line')}",{current_city_id:current_city_id, line_name:$('#line_name').val()}, function(data){
+            var list = eval(data);//解析json
+            if (list.length == 0) {
+                alert('没有此线路,请联系管理员添加');
+                return;
+            }
+            var str = '';
+            for(var i=0,ilen=list.length;i<ilen;i++){
+                str += '<div class="panel panel-default" >';
+                str += '<div class="panel-heading">';
+                str += '<h4 class="panel-title">';
+                str += '<a data-toggle="collapse" data-parent="#accordion" href="tabs_panels.html#collapse'+list[i]['line_id']+'">'+list[i]['line_name']+'</a></h4></div>';
+                str += '<div id="collapse'+list[i]['line_id']+'" class="panel-collapse collapse"><div class="panel-body">';
+                var tmp = list[i]['station'];
+                for(var k=0, klen=tmp.length; k<klen; k++){
+                    if (k == klen-1) {
+                        str += tmp[k]['station_name'];
+                    } else {
+                        str += tmp[k]['station_name']+'－';
+                    }
+                }
+                str += '</div></div></div>';
+            }
+            $('#line_result').html(str);
+        });
+    })
+
+    //站点查询
+    $('#station').on('click', function () {
+        $.get("{:U('station')}",{station_name:$('#station_name').val()}, function(data){
+            var list = eval(data);//解析json
+            if (list.length == 0) {
+                alert('没有此线路,请联系管理员添加');
+                return;
+            }
+            var str = '';
+            for(var i=0,ilen=list.length;i<ilen;i++){
+                str += '<div class="panel panel-default" >';
+                str += '<div class="panel-heading">';
+                str += '<h4 class="panel-title">';
+                str += '<a data-toggle="collapse" data-parent="#accordion" href="tabs_panels.html#collapse'+list[i]['line_id']+'">'+list[i]['line_name']+'</a></h4></div>';
+                str += '<div id="collapse'+list[i]['line_id']+'" class="panel-collapse collapse"><div class="panel-body">';
+                var tmp = list[i]['station'];
+                for(var k=0, klen=tmp.length; k<klen; k++){
+                    if (k == klen-1) {
+                        str += tmp[k]['station_name'];
+                    } else {
+                        str += tmp[k]['station_name']+'－';
+                    }
+                }
+                str += '</div></div></div>';
+            }
+            $('#line_result').html(str);
+        });
+    })
+
+    //站站查询
+    $('#stationA_to_stationB').on('click', function () {
+        if ($('#station_name_A').val() == $('#station_name_B').val()) {
+            alert('两个站点名不能相同');return;
+        }
+        $.get("{:U('stationA_to_stationB')}",{station_name_A:$('#station_name_A').val(), station_name_B:$('#station_name_B').val()}, function(data){
+            if (data == 1) {
+                alert('您所查询的第一个站点不存在');return;
+            }
+            if (data == 2) {
+                alert('您所查询的第二个站点不存在');return;
+            }
+
+
+            //
+            var list = JSON.parse(data);//解析json
+            if (list['trans'].length == 0 && list['direct'].length == 0 ) {
+                alert('没有直达或一次换乘线路');
+                return;
+            }
+            var str_trans = '';
+            var str_direct = '';
+            if (list['direct'].length != 0) {
+                var direct = list['direct'];
+                str_direct += '<div class="panel panel-default" >';
+                str_direct += '<div class="panel-heading">';
+                str_direct += '<h4 class="panel-title">';
+                str_direct += '<a data-toggle="collapse" data-parent="#accordion" href="tabs_panels.html#collapse'+'direct'+'">直达线路　　　　　　　　　　　　　　　　　　</a></h4></div>';
+                str_direct += '<div id="collapse'+'direct'+'" class="panel-collapse collapse"><div class="panel-body h4" style="letter-spacing:3px;">';
+                for(var i=0,ilen=direct.length;i<ilen;i++){
+                    str_direct += '<span class="text-warning">'+direct[i].A+'</span>乘坐'+direct[i].line_name+'到<span class="text-success">'+direct[i].B+'</span>下车<br />';
+                }
+                str_direct += '</div></div></div>';
+            }
+
+            if (list['trans'].length != 0) {
+                var trans = list['trans'];
+                var str_trans = '';
+                str_trans += '<div class="panel panel-default" >';
+                str_trans += '<div class="panel-heading">';
+                str_trans += '<h4 class="panel-title">';
+                str_trans += '<a data-toggle="collapse" data-parent="#accordion" href="tabs_panels.html#collapse'+'trans'+'">换乘线路　　　　　　　　　　　　　　　　　　</a></h4></div>';
+                str_trans += '<div id="collapse'+'trans'+'" class="panel-collapse collapse"><div class="panel-body h4" style="letter-spacing:3px;">';
+                for(var i=0,ilen=trans.length;i<ilen;i++){
+                    str_trans += '<span class="text-warning">'+trans[i].A+'</span>乘坐'+trans[i].a_to_trans+'到<span class="text-danger">【'+trans[i].transfer_station+'】</span>换乘'+trans[i].trans_to_b+'到<span class="text-success">'+trans[i].B+'</span>下车<br />';
+                }
+                str_trans += '</div></div></div>';
+            }
+            console.log(str_trans);
+            $('#line_result').html(str_direct+str_trans);
+        });
+    })
+</script>
+<!-- Mirrored from www.zi-han.net/theme/hplus/tabs_panels.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 20 Jan 2016 14:19:53 GMT -->
+</html>

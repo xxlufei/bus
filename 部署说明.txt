@@ -1,0 +1,5 @@
+数据库配置: \Common\Conf\config.php
+
+站点间查询:五台山->鼎新路
+
+后台管理员账号: admin       admin123

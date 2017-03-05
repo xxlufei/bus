@@ -5,7 +5,7 @@
 <link rel="stylesheet" href="__PUBLIC__/Admin/css/base.css" />
 <link rel="stylesheet" href="__PUBLIC__/Admin/css/info-mgt.css" />
 <link rel="stylesheet" href="__PUBLIC__/Admin/css/WdatePicker.css" />
-<title>移动办公自动化系统</title>
+<title>公交信息查询系统</title>
 <style type='text/css'>
 	table tr .id{ width:63px; text-align: center;}
 	table tr .name{ width:118px; padding-left:17px;}
@@ -21,13 +21,9 @@
 </head>
 
 <body>
-<div class="title"><h2>信息管理</h2></div>
+<div class="title"><h2>用户管理</h2></div>
 <div class="table-operate ue-clear">
-	<a href="javascript:;" class="add" id="btnadd">添加</a>
     <a href="javascript:;" class="del" id="btndel">删除</a>
-    <a href="javascript:;" class="edit" id="btnedit">编辑</a>
-    <a href="javascript:;" class="count" id="btnstat">统计</a>
-    <a href="javascript:;" class="check">审核</a>
 </div>
 <div class="table-box">
 	<table>
@@ -36,29 +32,17 @@
             	<th class="id">序号</th>
                 <th class="name">姓名</th>
 				<th class="nickname">昵称</th>
-                <th class="dept_id">所属部门</th>
-				<th class="sex">性别</th>
-				<th class="birthday">生日</th>
-                <th class="tel">电话</th>
-				<th class="email">邮箱</th>
-                <th class="addtime">添加时间</th>
                 <th class="operate">操作</th>
             </tr>
         </thead>
         <tbody>
         <volist name="data" id="vol">
         	<tr>
-            	<td class="id">{$vol.id}</td>
+            	<td class="id">{$vol.user_id}</td>
                 <td class="name">{$vol.username}</td>
 				<td class="nickname">{$vol.nickname}</td>
-                <td class="dept_id">{$vol.deptName}</td>
-                <td class="sex">{$vol.sex}</td>
-				<td class="birthday">{$vol.birthday}</td>
-				<td class="tel">{$vol.tel}</td>
-				<td class="email">{$vol.email}</td>
-                <td class="addtime">{$vol.addtime|date="Y-m-d H:m:s",###}</td>
                 <td class="operate">
-                    <input type="checkbox" value="{$vol.id}" />
+                    <input type="checkbox" value="{$vol.user_id}" />
                 </td>
             </tr>
         </volist>
@@ -100,10 +84,6 @@ showRemind('input[type=text], textarea','placeholder');
 
 //编辑按钮功能
     $(function(){
-        $('#btnedit').on('click', function(){
-            var id = $(':checkbox:checked').val();
-            window.location.href = "__CONTROLLER__/edit/id/" + id;
-        });
 
         $('#btndel').on('click',function(){
            var id =  $(':checkbox:checked');//jQuery对象，类数组对象
@@ -115,13 +95,6 @@ showRemind('input[type=text], textarea','placeholder');
             window.location.href = "__CONTROLLER__/del/id/" + ids;
         });
 
-        $('#btnadd').on('click',function(){
-            window.location.href = "__CONTROLLER__/add";
-        });
-
-        $('#btnstat').on('click',function(){
-            window.location.href = "__CONTROLLER__/charts";
-        });
     });
 </script>
 </html>

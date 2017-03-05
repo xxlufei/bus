@@ -4,44 +4,39 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="__PUBLIC__/Admin/css/base.css" />
 	<link rel="stylesheet" href="__PUBLIC__/Admin/css/login.css" />
-	<title>移动办公自动化系统</title>
+	<title>公交信息查询系统</title>
 </head>
 <body>
 	<div id="container">
 		<div id="bd">
             <form action="__CONTROLLER__/index" method="post">
-			<div class="login1">
-            	<div class="login-top"><h1 class="logo"></h1></div>
-                <div class="login-input">
+			<div class="login1" style="position: relative">
+            	<div class="login-top"><label  style="font-size: 40px;color: white;font-style:italic;position: absolute; left:160px;top:62px;"><i>公交信息管理系统</i></label></div>
+                <div class="login-input" style="position: relative">
                 	<p class="user ue-clear">
                     	<label>用户名</label>
                         <input type="text" name="username"/>
                     </p>
                     <p class="password ue-clear">
                     	<label>密&nbsp;&nbsp;&nbsp;码</label>
-                        <input type="text" name="password" />
+                        <input type="password" name="password" />
                     </p>
                     <p class="yzm ue-clear">
                     	<label>验证码</label>
                         <input type="text" name="captcha" maxlength="4"/>
-                        <cite>
+                        <div style="position: absolute; right:165px; top: 100px">
                             <img src="__CONTROLLER__/captcha" onclick="this.src='__CONTROLLER__/captcha/t/'+Math.random()" />
-                        </cite>
+                        </div>
                     </p>
                 </div>
                 <div class="login-btn ue-clear">
                 	<a href="javascript:;" id="btnlogin" class="btn">登录</a>
-                    <div class="remember ue-clear">
-                    	<input type="checkbox" id="remember" />
-                        <em></em>
-                        <label for="remember">记住密码</label>
-                    </div>
                 </div>
             </div>
             </form>
 		</div>
 	</div>
-    <div id="ft">CopyRight&nbsp;2014&nbsp;&nbsp;版权所有&nbsp;&nbsp;uimaker.com专注于ui设计&nbsp;&nbsp;苏ICP备09003079号</div>
+
 </body>
 <script type="text/javascript" src="__PUBLIC__/Admin/js/jquery.js"></script>
 <script type="text/javascript" src="__PUBLIC__/Admin/js/common.js"></script>

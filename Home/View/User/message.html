@@ -1,0 +1,97 @@
+<include file='header'/>
+<section id="blog" class="container">
+    <div class="blog">
+        <div class="wrapper wrapper-content  animated fadeInRight">
+
+            <div class="row">
+                <div class="col-sm-12">
+
+                    <div class="ibox chat-view">
+                        <div class="ibox-content">
+
+                            <div class="row">
+
+                                <div class="col-md-12 ">
+                                    <div class="chat-discussion">
+
+                                        <volist name="messages" id="message">
+                                        <div class="chat-message">
+                                            <img class="message-avatar" src="__PUBLIC__/Home/images/blog/avatar3.png" alt="">
+                                            <div class="message">
+                                                <a class="message-author" href="#"> 我</a>
+                                                <span class="message-date"> {$message.create_at|date='Y-m-d H:i:s',###} </span>
+                                                <span class="message-content">
+											{$message.content}
+                                            </span>
+                                            </div>
+                                        </div>
+                                            <if condition="$message.reply neq ''">
+                                        <div class="chat-message">
+                                            <img class="message-avatar" src="__PUBLIC__/Home/images/blog/avatar1.png" alt="">
+                                            <div class="message">
+                                                <a class="message-author" href="#"> 系统管理员 </a>
+                                                <span class="message-date">  {$message.reply_at|date='Y-m-d H:i:s',###} </span>
+                                                <span class="message-content">
+											{$message.reply}
+                                            </span>
+                                            </div>
+                                        </div>
+                                                <else/>
+                                                <div class="chat-message">
+                                                    <img class="message-avatar" src="__PUBLIC__/Home/images/blog/avatar1.png" alt="">
+                                                    <div class="message">
+                                                        <a class="message-author" href="#"> 系统管理员 </a>
+
+                                                        <span class="message-content">
+											本条留言尚未得到回复
+                                            </span>
+                                                    </div>
+                                                </div>
+                                            </if>
+                                            </volist>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="chat-message-form">
+
+                                        <div class="form-group">
+
+                                            <textarea id="txt3" class="form-control message-input" name="message" placeholder="输入留言内容"></textarea>
+                                            <div id="div3">发表</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!--/#blog-->
+<script>
+    $(function () {
+        $("#div3").click(function () {
+            var val = $("#txt3").val();
+
+                $.post("{:U('add_message')}", {content: val, user_id:{$session.user_id}}, function (result) {
+console.log(result)
+                    if (result != 200000) {
+                        alert('留言失败');
+                    } else {
+                        alert('留言成功');
+                        window.location.href = 'message';
+                    }
+                });
+            });
+
+        });
+</script>
+@include('footer');
+

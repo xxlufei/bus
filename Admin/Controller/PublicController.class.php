@@ -50,21 +50,21 @@ class PublicController extends Controller
         $rst = $verify->check($post['captcha']);
         if ($rst) {
             # 验证码成功,执行实例化模型查询数据操作
-            $model = D('user');
+            $model = D('admin_user');
             # 获取提交表单信息后与实例化user表中的username password对比
             $result = $model->where(array(
-                'username' => $post['username'],
-                'password' => $post['password'],
+                'admin_name' => $post['username'],
+                'admin_password' => md5($post['password']),
             ))->find();
             if ($result) {
                 # 持久化
-                session('uid', $result['id']);
-                session('uname', $result['username']);
-                session('role_id', $result['role_id']);
+                session('uname', $result['admin_nickname']);
+                //session('uname', $result['username']);
+                //session('role_id', $result['role_id']);
                 $this->success('登录成功！', U('Index/index'), 3);
             } else {
                 # 用户名或密码错误
-                $this->error('登录失败', U('login'), 3);
+                $this->error('用户名或密码错误', U('login'), 3);
             }
         } else {
             # 验证码错误
