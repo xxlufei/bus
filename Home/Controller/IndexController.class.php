@@ -131,6 +131,7 @@ class IndexController extends Controller
         }
         //取出A到中转站的全部直达线路
         $data_line = array();
+        $final_trans = array();
         foreach ($transfer_station as $trans) {
             $stations_trans = M('station')->where('station_name ="'. $trans['station_name'].'"')->order('line_id asc')->select();
             $tmp_data_a = $this->direct($stationsA, $stations_trans);
@@ -249,6 +250,7 @@ class IndexController extends Controller
             $id = $model->add($data);
             if ($id) {
                 # 持久化
+                $data['user_id'] = $id;
                 session('user', $data);
                 echo json_encode(['dec' => ['code' => 200000]]);
                 return;
